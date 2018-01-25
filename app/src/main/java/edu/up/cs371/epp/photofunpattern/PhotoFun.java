@@ -11,9 +11,10 @@ import android.support.v7.app.AppCompatActivity;
 /**
  *  class PhotoFun controls this photo manipulation app.
  *
- *  @author Edward C. Epp
+ *  @author  Edward C. Epp
  *  @version November 2017
  *   https://github.com/edcepp/PhotoFunPattern
+ *
  */
 
 public class PhotoFun extends AppCompatActivity {
