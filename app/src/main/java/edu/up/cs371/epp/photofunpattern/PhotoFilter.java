@@ -55,7 +55,8 @@ public abstract class PhotoFilter {
 
         for (int w = 0; w < width; w++) {
             for (int h = 0; h < height; h++) {
-                int outPixel = transformPixel(inBmp.getPixel(w, h));
+                int inPixel = inBmp.getPixel(w,h);
+                int outPixel = transformPixel(inPixel);
                 newBmp.setPixel(w, h, outPixel);
             }
         }
