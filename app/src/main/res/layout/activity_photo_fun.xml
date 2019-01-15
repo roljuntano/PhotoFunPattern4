@@ -8,6 +8,12 @@
     tools:context="edu.up.cs371.epp.photofun.PhotoFun"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Original                                                                Modified" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
